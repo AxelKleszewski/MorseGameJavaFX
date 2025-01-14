@@ -1,0 +1,31 @@
+#anchorPane {
+    -fx-background-image: url("images/morse_code_background.jpg");
+    -fx-background-position: center;
+}
+
+#lightsPane {
+    -fx-background-radius: 40px;
+    -fx-background-color: #858585;
+}
+
+#greenLight {
+    -fx-background-radius: 100%;
+    -fx-background-color: #004A00;
+}
+
+#redLight {
+    -fx-background-radius: 100%;
+    -fx-background-color: #4A0000;
+}
+
+#morseLight {
+    -fx-background-color: #4A4A00;
+}
+
+#wordInput {
+    -fx-background-color: #0A6E24;
+    -fx-text-fill: #0BD440;
+    -fx-prompt-text-fill: #0BD440;
+    -fx-border-width: 10px;
+    -fx-border-color: #777777;
+}

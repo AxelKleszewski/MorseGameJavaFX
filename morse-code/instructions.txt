@@ -1,0 +1,8 @@
+build.gradle -> mainClass = 'fr.univartois.butinfo.ihm.NomApplication'
+settings.gradle -> rootProject.name = 'jfx-nom'
+Application -> FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("nom-view.fxml"));
+Controller -> 
+View -> fx:controller = fr.univartois.butinfo.ihm.NomController
+Sounds -> Utiliser des fichiers .wav
+
+NE PAS FAIRE LA METHODE MVC
